@@ -7,5 +7,5 @@ let ImplementationError = (501, "Not implemented")
 print(ImplementationError)
 let a:Int = 5;
 print(a); 
-let a:Optional
-print(a ?? "hey")
+var aa:String?
+print(aa ?? "hey")
