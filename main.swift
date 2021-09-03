@@ -1,8 +1,6 @@
-var name:String = "hardik"
+var name:String = "kapil"
 let keys = 10
 print("Hello \(name) you have \(keys) keys")
-var નામ = "સાગર"
-print(નામ)
 let ImplementationError = (501, "Not implemented") 
 print(ImplementationError)
 let a:Int = 5;
