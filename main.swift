@@ -5,5 +5,7 @@ let ImplementationError = (501, "Not implemented")
 print(ImplementationError)
 let a:Int = 5;
 print(a); 
-var aa:String?
-print(aa ?? "hey")
+var aa:String? = "assign value"
+print(aa ?? "hey") 
+
+print(aa!, " ! means force fully warrping value")
