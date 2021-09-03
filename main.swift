@@ -8,4 +8,4 @@ print(a);
 var aa:String? = "assign value"
 print(aa ?? "hey") 
 
-print(aa!, " ! means force fully warrping value")
+print(aa!, " ! means force fully warrping values")
