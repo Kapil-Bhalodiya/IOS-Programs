@@ -1,0 +1,23 @@
+print("Enter Number of wants to go an upto : ")
+if let a = Int(readLine()!){
+  for i in 1...a{
+    for _ in 0...i{
+      print(" ",terminator:"")
+    }
+    for _ in (0...(a-i)).reversed(){
+      print("* ",terminator:"")
+    } 
+    print("")
+  }
+  for i in 1...a{
+    for _ in 0...a-i{
+      print(" ",terminator:"")
+    }
+    for _ in 1...i{
+      print(" *",terminator:"")
+    }
+    print("")
+  }
+}else{
+  print("not")
+}
