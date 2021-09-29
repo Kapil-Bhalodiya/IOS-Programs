@@ -1,0 +1,13 @@
+print("Enter Number of Row : ")
+if let a = Int(readLine()!){
+  var n:Int = 1
+  for i in 1...a{
+    for _ in 1...i{
+      print(n," ",terminator:"")
+      n+=1
+    }
+    print("")
+  }
+}else{
+  print("not")
+}
