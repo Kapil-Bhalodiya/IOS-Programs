@@ -1,0 +1,14 @@
+print("Enter Number you want to go an upto : ")
+if let a = Int(readLine()!){
+  for i in 1...a{
+    for _ in i...a{
+      print(" ",terminator:"")
+    }
+    for _ in 1...i{
+        print("* ",terminator:"")
+    }
+    print("")
+  }
+}else{
+  print("Enter Integer value")
+}
