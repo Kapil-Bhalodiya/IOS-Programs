@@ -22,7 +22,7 @@ func valid_age(no:Int) throws{
     }
 }
 do {
-    try valid_age(no: -8)
+    try valid_age(no: -50)
 }
 catch{
     if let error=error as? Check_Age{
